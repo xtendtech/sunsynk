@@ -1,6 +1,6 @@
-# sunsynk
-sunsynk or deye inverter srcipt for getting data and changing using python
-SunSynk API
+# SunSynk API
+Sunsynk (Deye) inverter srcipt for getting data and changing using python
+
 The purpose of this Python code is to retrieve the plant id and current power generation data from a Sunsynk inverter. Using this information you can then choose to take actions based on this data - e.g. trigger IoT devices, lights, notifications, adjust inverter settings etc.
 
 Requirements
