@@ -14,9 +14,7 @@ Use printenv or env command to check if its available to use
 Steps
 Confirm connectivity to inverter from wifi or internet.
 
-From terminal run the Python file with two arguments in the command-line, the first being your Sunsynk.net username/email and the second being your password for this site. These arguments are used programatically to retrieve the bearer token to for API requests.
+We get token using creditials and then get the plant using the token retrieved .These arguments are used programatically to retrieve the bearer token to for API requests.
 
-The command example would be:
-
-python3 sunsynk_get_generation.py <my_username/email> <my_password>
-The output by default runs both functions which will display the bearer token, the plant id and the real-time power generation.
+ 
+The output by default runs both functions which will display the bearer token, the plant id and the real-time power generation.Also we can save or update the paramters in the inverter
