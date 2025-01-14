@@ -8,6 +8,8 @@ SunSynk account created on https://sunsynk.net/ site, and an SunSynk inverter th
 In Linux do nano  .profile and save the data instead of sharing it in the script
 export sunsynk_email='email'
 export sunsynk_password='password'
+After its saved and exit do ~/.profile to activate the variables so that the script can access it
+Use printenv or env command to check if its available to use
 
 Steps
 Confirm connectivity to inverter from wifi or internet.
